@@ -52,6 +52,7 @@ class Arvore_Binaria:
 
         if valor_alvo < no_atual.valor:
             return self._encontrar_no_recursivamente(no_atual.esquerda, valor_alvo)
+        
         else:
             return self._encontrar_no_recursivamente(no_atual.direita, valor_alvo)
 
